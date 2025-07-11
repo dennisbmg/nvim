@@ -43,8 +43,6 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
-vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', { noremap = true, silent = true })
-
 -- better Window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h", { noremap = true, silent = true }) -- Move left
 vim.keymap.set("n", "<C-j>", "<C-w>j", { noremap = true, silent = true }) -- Move down
